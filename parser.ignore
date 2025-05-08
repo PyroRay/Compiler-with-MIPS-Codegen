@@ -1,0 +1,18 @@
+// structures.h
+#ifndef STRUCTURES_H
+#define STRUCTURES_H
+
+#include <string>
+#include <vector>
+
+struct token {
+  std::string value;
+  std::string type;
+};
+
+#endif
+
+
+// parser.h
+#include "structures.h"
+// ... rest of parser.h content ...
